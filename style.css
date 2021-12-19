@@ -218,7 +218,7 @@ header {
 
 /*----- Presentation -----*/
 #presentation-article {	
-	/*background-image:url("images/presentation_bg.jpg");*/
+	background-image:url("images/presentation_bg.jpg");
 	background-position:80% top;
 	background-color:purple;
 	position:relative;
@@ -246,7 +246,7 @@ header {
 
 /*----- Professional project -----*/
 #projpro-article {	
-	/*background-image:url("images/profproj_bg.jpg");*/
+	background-image:url("images/profproj_bg.jpg");
 	background-color:orange;
 	flex-direction:column;
 	justify-content:center;
@@ -362,7 +362,7 @@ header {
 
 /*----- Hobbies -----*/
 #hobbies-article {
-	/*background-image:url("images/hobbies_bg.jpg");*/
+	background-image:url("images/hobbies_bg.jpg");
 	background-color:red;
 	flex-direction:column;
 	justify-content:center;
@@ -449,7 +449,7 @@ header {
 
 /*----- Contact -----*/
 #contact-article {
-	/*background-image:url("images/contact_bg.jpg");*/
+	background-image:url("images/contact_bg.jpg");
 	background-color:green;
 	flex-direction:column;
 	justify-content:center;
