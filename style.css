@@ -202,7 +202,7 @@ header {
 /*----- INDEX -----*/
 /*----- Index -----*/
 #index-article {
-	/*background-image:url("images/index_bg.jpg");*/
+	background-image:url("images/index_bg.jpg");
 	background-position:center bottom;
 	background-color:blue;
 	justify-content:center;
