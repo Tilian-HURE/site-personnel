@@ -1,9 +1,9 @@
+/*Shows or hides menu-selector*/
 function menu_selector() {
-	if (document.getElementById('menu-selector').style.visibility != "visible") {
-		
+	if (document.getElementById('menu-selector').style.visibility != "visible") {		
 		document.getElementById('menu-selector').style.transform = "translateX(0px)";
 		document.getElementById('show-menu').style.transform = "translateX(133.5px)";
-		document.getElementById('show-menu').style.border = "none";
+		document.getElementById('show-menu').style.border = "0px";
 		document.getElementById('show-menu').style.backgroundImage = "url('images/icons/close_icon.png')";
 		document.getElementById('menu-selector').style.visibility = "visible";
 	} else {
@@ -15,6 +15,7 @@ function menu_selector() {
 	}
 }
 
+/*Reloads index page*/
 function reload_page() {
 	window.location.href = 'index.html';
 }
