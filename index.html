@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Accueil</title>
+		<meta charset="utf-8"/>
+		<link href="style.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="">
+	</head>
+	<body>
+		<!--Header-->
+		<header>			
+			<h1 id=header-name onclick="reload_page()">tilian huré</h1>
+		</header>
+		<!--Menu-Selector-->
+		<div id="show-menu" onclick="menu_selector()"></div>
+		<section>
+			<div id="menu-selector">
+				<a href="#index">Accueil</a>
+				<a href="#presentation">Présentation</a>
+				<a href="#projpro">Mon projet<br/>professionnel</a>
+				<a href="#hobbies">Mes centres<br/>d'intérêt</a>
+				<a href="#contact">Me contacter</a>
+			</div>
+			<script src="script.js"></script>
+		</section>
+		<!--Content-->
+		<section>
+			<!--Index-->
+			<span id="index" class="anchor"></span>
+			<article id="index-article">
+				<div id="welcome-div">
+					<h2>Bienvenue.</h2>
+					<a href="CV.pdf" class="button" target="_blank" download>Télécharger mon CV en PDF</a>
+				</div>
+			</article>
+			<!--Presentation-->
+			<span id="presentation" class="anchor"></span>
+			<article id="presentation-article">
+				<div>
+					<h2>Présentation</h2>
+					<p>Je m'appelle Tilian Huré, j'ai 18 ans et je suis actuellement en 1ère année de BUT Informatique à l'IUT de Blagnac. Depuis petit je m'intéresse à l'univers du numérique, celui-ci étant omniprésent dans nos vie, notamment au domaine de la programmation. Je me suis donc forgé au fil du temps, des compétences en algorithmique puis dans plusieurs langages de programmation. Je continue d'étendre mes connaissances dans ma formation en visant potentiellement le poste de développeur full-stack ainsi que le rôle de chef de projet.</p>
+				</div>
+			</article>
+			<!--Professional project-->
+			<span id="projpro" class="anchor"></span>
+			<article id="projpro-article">
+				<h2>Mon projet professionnel</h2>
+				<!--Formation-->
+				<div class="projpro-container">					
+					<h3>Ma formation</h3>
+					<div class="formation">
+						<div>
+							<span class="formation-date">2021-en cours</span>
+							<span class="formation-name">BUT Informatique</span>
+							<span class="formation-place">IUT Blagnac</span>
+						</div>
+						<img src="images/icons/computer_icon.png" alt="computer">
+					</div>
+					<div class="formation">
+						<div>
+							<span class="formation-date">2021</span>
+							<span class="formation-name">Baccalauréat spécialités Maths et NSI (mention Bien)</span>
+							<span class="formation-place">Lycée Déodat de Séverac</span>
+						</div>
+						<img src="images/icons/hat_icon.png" alt="hat">
+					</div>
+				</div>
+				<!--Skills-->
+				<div class="projpro-container">
+					<h3>Mes compétences</h3>
+					<span id="prog-skills">En programmation :</span>
+					<span class="skills-langage">Python</span>
+					<span class="skills-langage">SQL</span>
+					<span class="skills-langage">JavaScript</span>
+					<span class="skills-langage">HTML et CSS</span>
+					<span class="skills-langage">PHP</span>
+					<span class="skills-langage">Java</span>
+				</div>
+				<!--Professional project-->
+				<div class="projpro-container">
+					<h3>Mon projet professionnel</h3>
+					<p id="proproj">Je suis actuellement étudiant à l'IUT de Blagnac, je suis une formation de BUT Informatique et j’ai choisi cette voie car je suis passionné par le domaine de la programmation et du numérique en général. Je cherche à évoluer dans un environnement à taille humaine qui favorise le dialogue et la pratique en équipe.<br/>J’ai créé plusieurs projets au cours de mon apprentissage, ce qui m’a permis de développer de nombreuses compétences en programmation. Mon souhait est de gagner en polyvalence pour, dans quelques années, viser un poste de développeur full-stack. J'espère également, par cette légitimité, pouvoire prendre régulièrement en charge le rôle de chef de projet.</p>
+				</div>
+			</article>
+			<!--Hobbies-->
+			<span id="hobbies" class="anchor"></span>
+			<article id="hobbies-article">
+				<h2>Mes centres d'intérêt</h2>
+				<div id="hobbies-container">
+					<div class="hobbie" id="videogames">
+						<h3>Les jeux vidéo</h3>
+						<p>Comme beaucoup de monde aujourd'hui, j'apprécie jouer aux jeux vidéo. Que ce soit de manière compétitive (E-Sport) ou juste en tant que divertissement.</p>
+					</div>
+					<div class="hobbie" id="music">
+						<h3>La musique</h3>
+						<p>La musique a également une place importante dans ma vie. J'ai eu l'occasion d'être batteur dans plusieurs groupes de musique tout en prenant des cours.</p>
+					</div>
+					<div class="hobbie" id="programmation">
+						<h3>La progra<br/>-mmation</h3>
+						<p>C'est de manière autodidacte que j'ai commencé à apprendre la programmation. Aujourd'hui je continue d'approfondir mes connaissances en découvrant et en expérimantant.</p>
+					</div>
+				</div>
+			</article>
+			<!--Contact-->
+			<span id="contact" class="anchor"></span>
+			<article id="contact-article">
+				<h2>Me contacter</h2>
+				<form onsubmit="alert('Le formulaire a bien été envoyé (non).')">
+					<input placeholder="Prénom et NOM" type="text" name="name" required>
+					<input placeholder="Adresse e-mail" type="email" name="e-mail" required>
+					<textarea required placeholder="Commentaire" name="commentary"></textarea >
+					<input type="submit" name="contact-form" class="button">
+				</form>
+				<a href="#footer" id="scroll-down">↓</a>
+			</article>			
+		</section>		
+		<!--Footer-->
+		<footer id="footer">
+			<span class="footer-contact">tilian.contact@gmail.com</span>
+			<span class="footer-contact">05 04 03 02 01</span>
+			<a href="mentions.html">Mentions légales</a>
+		</footer>
+	</body>
+</html>
