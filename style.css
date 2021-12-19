@@ -235,12 +235,14 @@ header {
 	max-width:1000px;
 }
 
-#presentation-article > div > p,  #presentation-article > div > h2{
-	margin:0;
-	margin-bottom:20px;
+#presentation-article > div > p,  #presentation-article > div > h2 {
+	margin:0;	
 	width:100%;
 }
 
+#presentation-article > div > h2 {
+	margin-bottom:20px;
+}
 
 /*----- Professional project -----*/
 #projpro-article {	
