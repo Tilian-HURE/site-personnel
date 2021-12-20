@@ -19,6 +19,7 @@ body {
 	margin:0;
 	font-family:Futurfont;
 	width:100%;
+	min-width:325px;
 	overflow:overlay;
 }
 
@@ -292,6 +293,9 @@ header {
 
 .formation > div {
 	padding-left:2.5vw;
+	/*display:flex;
+	flex-direction:column;
+	justify-content:space-between;*/
 }
 
 .formation > img {
@@ -303,6 +307,7 @@ header {
 .formation-date {
 	font-weight:bold;
 	font-size:25px;
+	line-height:25px;
 }
 
 .formation-name {
@@ -310,6 +315,9 @@ header {
 	letter-spacing:2px;
 	font-size:22px;
 	display:block;
+	margin-top:5.5px;
+	margin-bottom:5.5px;
+	line-height:22px;
 }
 
 .formation-place {
@@ -317,6 +325,7 @@ header {
 	letter-spacing:2px;
 	font-size:22px;
 	font-style:italic;
+	line-height:22px;
 }
 
 /*2) Skills*/
@@ -665,14 +674,17 @@ footer > a:hover {
 	}
 
 	.formation > div {
-		padding:0px;
+		padding:5px;
 		display:flex;
 		flex-direction:column;
 		align-items:center;
 	}
 
-	.formation-name, .formation-place {
+	.formation-date, .formation-name, .formation-place {
 		text-align:center;
+		line-height:20px;
+		margin-left:5px;
+		margin-right:5px;
 	}
 
 	/*Hobbies*/
