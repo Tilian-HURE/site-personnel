@@ -609,19 +609,6 @@ footer > a:hover {
 	text-align:left;
 }
 
-@media (max-width:760px) {
-	#mentions-article > a {
-		color:black;
-		left:0;
-		width:100%;
-		text-align:center;
-		font-size:22.5px;
-	}
-
-	#mentions-article > div {
-		padding-top:100px;
-	}
-}
 
 /*----- PHONE-MODE -----*/
 @media (max-width:760px) {
@@ -713,5 +700,18 @@ footer > a:hover {
 
 	input[type="text"], input[type="email"], textarea {
 		width:85%;
+	}
+
+	/*Legal-Notice*/
+	#mentions-article > a {
+		color:black;
+		left:0;
+		width:100%;
+		text-align:center;
+		font-size:22.5px;
+	}
+
+	#mentions-article > div {
+		padding-top:100px;
 	}
 }
